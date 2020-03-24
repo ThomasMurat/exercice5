@@ -2,10 +2,64 @@
 <html>
 <meta charset="UTF-8" />
     <head>
-        <title>Ma première page en html</title>
+        <title>Mon compte BNP</title>
+        <style>
+            table, th, td {
+            padding: 1px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            }
+          </style>
     </head>  
     <body>
-        <h1>Ma première page en html</h1>
-        <p1> Ceci est mon premier exercice j'espère aussi que vous serez indulgent avec les fautes d'orthographes.</p1>
+        <table border="1">
+            <caption>Mon compte BNP</caption>
+            <thead>
+                <tr>
+                    <th><B>Dates</B></th>
+                    <th><B>Libellé</B></th>
+                    <th><B>Crédit</B></th>
+                    <th><B>Débit</B></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01/05/2016</td>
+                    <td>Paye</td>
+                    <td>1500</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>01/05/2016</td>
+                    <td>Courses de la semaine</td>
+                    <td>0</td>
+                    <td>152,30</td>
+                </tr>
+                <tr>
+                    <td>04/05/2016</td>
+                    <td>Mc do</td>
+                    <td>0</td>
+                    <td>32.40</td>
+                </tr>
+                <tr>
+                    <td>05/05/2016</td>
+                    <td>Loyer</td>
+                    <td>0</td>
+                    <td>700</td>
+                </tr>
+                <tr>
+                    <td>05/05/2016</td>
+                    <td>Internet</td>
+                    <td>0</td>
+                    <td>39,90</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr align="center">
+                    <td colspan='2'>Solde</td>
+                    <td colspan='2'>575,40</td>
+                </tr>
+            </tfoot>
+        </table>
     </body>
 </html>
